@@ -1,0 +1,98 @@
+/* Gaya Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: monospace;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+
+/* Header */
+header {
+    background: linear-gradient(rgb(136, 136, 243),rgb(230, 170, 230));
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77c9d4 3px solid;
+}
+
+header h1 {
+    text-align: left;
+    margin: 0;
+    font-family: m;
+}
+
+
+.btn {
+    padding: 8px 15px;
+    background: linear-gradient(rgb(101, 101, 211),rgb(218, 134, 218));    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    float: right;
+    transform:translateY(-1.2rem) ;
+    margin: 0;
+    box-shadow: #333;
+    border-radius: 5px;
+   
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Konten Utama */
+.content {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    color: #5b60bf;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+/* Gaya untuk Setiap Era */
+.content .era {
+    margin-bottom: 40px;
+}
+
+.content .era h3 {
+    color: #c3a1a1;
+    background: #b0d1da;
+    padding: 10px;
+    border-left: 5px solid #747ed6;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(rgb(136, 136, 243),rgb(230, 170, 230));
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
